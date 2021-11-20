@@ -1,0 +1,347 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif
+}
+body {
+  background-image: url("../image/WhatsApp\ Image\ 2021-11-14\ at\ 7.54.42\ PM.jpeg");
+    display: inline-block;
+   
+    place-items: center;
+    background-color: rgb(226, 230, 234);
+    background-attachment: fixed;
+      background-position: center;
+      background-size: 84.5%;
+      background-repeat: no-repeat;
+      background-clip: border-box;
+      background-position: top;
+      
+      
+    
+      
+  }
+  .field-icon {
+    float: left;
+    position: relative;
+    top: -30px;
+    left: 15px;
+    z-index: 2;
+    font-size: 30px;
+    color: #1780e9e3;
+  }
+  
+  .zmdi {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+  
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .zmdi-lock-outline{
+    color: #007DF8;
+    position: relative;
+    top: -35px;
+    right: 10px;
+    float: right;
+    
+  }
+  
+  .zmdi-accoutn-o{
+  float: right;
+  color: #007DF8;
+  position: relative;
+  
+  }
+  
+  
+  .wrapper {
+    width:80vh;
+    background: #fff;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+    position: absolute;
+    left: 824px;
+    top: -14px;
+    height: 722px;
+  
+  }
+
+
+
+.wrapper .title-text {
+  display: flex;
+  width: 200%;
+}
+
+.wrapper .title-text .title {
+  width: 50%;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .title-text .title p{
+
+font-size: 18px;
+font-weight: 100;
+}
+.wrapper .form-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-controls .signup{
+  color: #000;
+}
+.slide-controls .slide-tab{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  z-index: 0;
+  border-radius: 5px;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+  background: -webkit-linear-gradient(left, #745ae6,#3713d8);
+}
+input[type="radio"]{
+  display: none;
+}
+.gender input{
+  
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.gender input[type="radio"]{
+  display: inline;
+  width: 50px;
+ 
+}
+#signup:checked ~ .slide-tab{
+  left: 50%;
+}
+#signup:checked ~ .login{
+  color: #000;
+}
+#signup:checked ~ .signup{
+ color: #fff;
+}
+
+.form-container .form-inner{
+  display: flex;
+  width: 200%;
+}
+
+.form-container .form-inner form {
+  width: 50%;
+   
+}
+
+.form-container .form-inner form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+.form-inner form .field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-bottom-width: 2px;
+  transition: all 0.4s ease ;
+}
+.form-inner form .field input:focus{
+  border-color: #3713d8;
+}
+
+.form-inner form .pass-link {
+  margin-top: 5px;
+}
+
+.form-inner form .signup-link{
+  text-align: center;
+  margin-top: 30px;
+}
+.form-inner form .pass-link a,
+.form-inner form .signup-link a {
+  color: #3713d8;
+  text-decoration: none;
+}
+
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover {
+  text-decoration: underline;
+} 
+
+#sub input{
+width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  border: none;
+  cursor: pointer;
+  background:#007DF8;
+  height: 48px;
+}
+.form-container .form-inner .field input{
+  height: 40px;
+  padding: 25px;
+  text-align: right;
+  
+}
+.field button {
+position: relative;
+right: -100px;
+top: 10px;
+width: 50%;
+
+}
+.field .btn a{
+  text-decoration: none;
+ background: none;
+ color: #fff;
+ text-align: center;
+
+}
+
+  
+@media(max-width:750px) {
+
+   
+  .wrapper {
+    max-width: 500px;
+    height: 600px;
+    background: #fff;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    left: 35px;
+    top:0px;
+  
+  }
+  
+  .wrapper .title-text {
+    display: flex;
+    width: 200%;
+  }
+  
+  .wrapper .title-text .title {
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+  }
+  .wrapper .title-text .title p{
+
+font-size: 18px;
+font-weight: 100;
+  }
+  .wrapper .form-container {
+    width: 100%;
+    overflow: hidden;
+  }
+    .image img {
+     display: none;
+    }
+    form .field input[type="submit"]{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      padding-left: 0px;
+      border: none;
+      cursor: pointer;
+      background:#007DF8;
+    }
+    .field button {
+   position: relative;
+   right: -70px;
+   top: 10px;
+   width: 50%;
+   
+    }
+    .field .btn a{
+      text-decoration: none;
+     background: none;
+     color: #fff;
+  
+  
+    }
+  }
+  @media(max-width:500px) {
+
+   
+    .wrapper {
+      max-width: 340px;
+      height: 600px;
+      background: #fff;
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+      left: 0px;
+      top:0px;
+    
+    }
+    
+    .wrapper .title-text {
+      display: flex;
+      width: 200%;
+    }
+    
+    .wrapper .title-text .title {
+      width: 50%;
+      font-size: 35px;
+      font-weight: 600;
+      text-align: center;
+      transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    }
+    .wrapper .title-text .title p{
+  
+  font-size: 18px;
+  font-weight: 100;
+    }
+    .wrapper .form-container {
+      width: 100%;
+      overflow: hidden;
+    }
+      .image img {
+       display: none;
+      }
+      form .field input[type="submit"]{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 0px;
+        border: none;
+        cursor: pointer;
+        background:#007DF8;
+      }
+      .field button {
+     position: relative;
+     right: -70px;
+     top: 10px;
+     width: 50%;
+     
+      }
+      .field .btn a{
+        text-decoration: none;
+       background: none;
+       color: #fff;
+    
+    
+      }
+    }

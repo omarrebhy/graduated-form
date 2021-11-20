@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>mitral</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/all.min.css">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+	</head>
+
+	<body>
+
+
+
+
+
+		<section class="cover">
+			<!--start loginform and signupform -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+
+						<div class="wrapper">
+							<div class="title-text">
+								<div class="title login">تسجيل الدخول</div>
+								<div class="title sign up">انشاء حساب جديد</div>
+							</div>
+
+							<div class="form-container">
+								<div class="slide-controls">
+									<input type="radio" name="slider" id="login" checked>
+									<input type="radio" name="slider" id="signup">
+									<label for="login" class="slide login"> تسجيل الدخول</label>
+									<label for="signup" class="slide signup">انشاء حساب جديد</label>
+									<div class="slide-tab"></div>
+								</div>
+								<div class="form-inner">
+									<form action="#" class="login">
+										<!--start loginform  -->
+										<div class="field">
+											<input type="email"  placeholder="الايميل" class="form-control" id="exampleInputEmail1"
+												aria-describedby="emailHelp">
+											<i class="zmdi zmdi-email"></i>
+										</div>
+
+										<div class="field">
+											<input type="password" name="password" id="password"
+												placeholder="كلمة المرور" pattern="left" required>
+											<span toggle="#password"
+												class="zmdi zmdi-eye field-icon toggle-password"></span>
+											<i class="zmdi zmdi-lock-outline " aria-hidden="true"></i>
+
+
+										</div>
+										<div class="pass-link"><a href="forget.html"> هل نسيت كلمه السر؟</a></div>
+										<div id="submit">
+											<input type="submit" value="الدخول">
+										</div>
+										<p>او</p>
+										<div class="signup-link">
+											<a> <input type="submit" value="انشاء حساب جديد"></a>
+										</div>
+
+
+										<h6>سجل عبر السوشيال ميديا</h6>
+
+										<div class="btn-group btn-group">
+											<div class="field">
+												<a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser"
+													class="btn-google ">
+													<img src="image/icons/icon-google.png" alt="GOOGLE">
+													Google
+												</a>
+											</div>
+											<div class="field">
+												<a href="https://ar-ar.facebook.com/" class="btn-face ">
+													<img src="./image/face-logo1.png" alt="" srcset="">
+													Facebook
+												</a>
+											</div>
+
+										</div>
+
+
+									</form>
+									<form action="#" class="signup">
+										<!--start  signupform -->
+										<div class="field">
+
+											<input type="text" placeholder=" اسم المستخدم" required>
+											<i class="zmdi zmdi-account"></i>
+
+										</div>
+										<i class="zmdi zmdi-accoutn-o"></i>
+										<div class="field">
+											<input type="email"  placeholder="الايميل" class="form-control" id="exampleInputEmail1"
+												aria-describedby="emailHelp">
+											<i class="zmdi zmdi-email"></i>
+										</div>
+										<div class="field">
+											<input type="password" name="password" id="password"
+												placeholder="كلمة المرور" pattern="left" required>
+											<span toggle="#password"
+												class="zmdi zmdi-eye field-icon toggle-password"></span>
+											<i class="zmdi zmdi-lock-outline " aria-hidden="true"></i>
+										</div>
+
+										<div class="field">
+											<input type="password" name="password" id="password"
+												placeholder="تاكيد كلمة المرور" pattern="left" required>
+											<span toggle="#password"
+												class="zmdi zmdi-eye field-icon toggle-password"></span>
+											<i class="zmdi zmdi-lock-outline " aria-hidden="true"></i>
+										</div>
+										<div class="field">
+											<input type="text" placeholder=" رقم الهاتف" required>
+											<i class="zmdi zmdi-phone"></i>
+										</div>
+
+										<div class="field" id="sana">
+											<h5 class="sana">:تاريخ الميلاد</h5>
+
+											<input type="text" placeholder="سنه">
+											<input type="text" placeholder="شهر">
+											<input type="text" placeholder="يوم">
+										</div>
+										<div class="field" id="sana">
+											<h5 class="sana">:النوع</h5>
+											<p> ذكر </p><input type="radio" name="gender" value="male" required>
+											<p> انثي</p><input type="radio" name="gender" value="female" required>
+
+
+										</div>
+
+										<div class="field">
+											<input type="submit" value="سجل الان" id="sub">
+										</div>
+										<h6>سجل عبر السوشيال ميديا</h6>
+										<div class="btn-group btn-group">
+											<div class="field">
+												<a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser"
+													class="btn-google ">
+													<img src="image/icons/icon-google.png" alt="GOOGLE">
+													Google
+												</a>
+											</div>
+											<div class="field">
+												<a href="https://ar-ar.facebook.com/" class="btn-face ">
+													<img src="./image/face-logo1.png" alt="" srcset="">
+													Facebook
+												</a>
+											</div>
+
+										</div>
+
+									</form>
+
+
+
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+		<!--end loginform and signupform -->
+
+
+
+
+
+
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="./js/jquery-3.6.0.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/popper.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+
+	</html>
